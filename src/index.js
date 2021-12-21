@@ -6,14 +6,31 @@ import './index.css';
 function BookList() {
   return (
     <section className="bookList">
-      <article className="bookContainer">
-        <Book />
-        <AuthorDetails />
-        <BookDetails />
-      </article>
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
+      <BookContainer />
     </section>
   );
 }
+
+const BookContainer = () => {
+  return (
+    <article className="bookContainer">
+      <Book />
+      <AuthorDetails />
+      <BookDetails />
+    </article>
+  );
+};
 
 const Book = () => {
   return (
@@ -48,7 +65,6 @@ const AuthorDetails = () => {
 ReactDOM.render(
   <React.StrictMode>
     <BookList />
-    {/* <BookList /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -18,12 +18,33 @@ code {
 }
 
 .bookList {
-  display: flex;
-  flex-direction: column;
+  width: 90vw;
+  display: grid;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   border: 2px solid black;
 }
 .bookContainer {
-  border: 2px solid red;
+  background: rgb(120, 214, 211);
+  padding: 2rem;
+  margin: 1rem;
+  /* border: 2px solid red; */
+}
+.bookName {
+  color: black;
+}
+.authorName {
+  color: green;
+}
+.publisher {
+  color: black;
+}
+.price {
+  color: gold;
+}
+@media screen and (min-width: 768px) {
+  .bookList {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
