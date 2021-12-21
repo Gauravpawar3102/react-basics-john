@@ -6,6 +6,7 @@ import './index.css';
 function BookList() {
   return (
     <section className="bookList">
+      <h1>{'Hola Amigos'}</h1>
       <BookContainer />
       <BookContainer />
       <BookContainer />
