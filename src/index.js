@@ -12,13 +12,6 @@ function BookList() {
       <BookContainer />
       <BookContainer />
       <BookContainer />
-      <BookContainer />
-      <BookContainer />
-      <BookContainer />
-      <BookContainer />
-      <BookContainer />
-      <BookContainer />
-      <BookContainer />
     </section>
   );
 }
