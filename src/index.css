@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bookImg {
+  width: 10rem;
+  height: 16rem;
+}
+
+.bookList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+.bookContainer {
+  border: 2px solid red;
+}
