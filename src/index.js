@@ -8,10 +8,6 @@ function BookList() {
     <section className="bookList">
       <h1>{'Hola Amigos'}</h1>
       <BookContainer />
-      <BookContainer />
-      <BookContainer />
-      <BookContainer />
-      <BookContainer />
     </section>
   );
 }
