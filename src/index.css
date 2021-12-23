@@ -29,6 +29,8 @@ code {
   background: rgb(120, 214, 211);
   padding: 2rem;
   margin: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   /* border: 2px solid red; */
 }
 .bookName {
