@@ -2,31 +2,39 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import coverPage from './App';
-
-const Author = 'Amelia Hepworth';
-const title = 'I Love You to the Moon and Back ';
-const img =
-  'https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60';
+const books = [
+  {
+    Author: 'Amelia Hepworth',
+    title: 'I Love You to the Moon and Back ',
+    img: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
+  },
+  {
+    Author: 'Amelia Hepworth',
+    title: 'I Love You to the Moon and Back ',
+    img: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
+  },
+];
+const names = ['john', 'peter', 'susan'];
+const newNames = names.map((name) => {
+  return <h1>{name}</h1>;
+});
+console.log(newNames);
 
 function BookList() {
   return (
     <section className="bookList">
-      <BookContainer job="developer" />
-      <BookContainer title="random title" number={22} />
       <BookContainer />
     </section>
   );
 }
 
 const BookContainer = (props) => {
+  const { title, Author } = props;
   return (
     <article className="bookContainer">
-      <img className="bookImg" src={img} alt="Book" />
+      <img className="bookImg" src={books.img} alt="Book" />
       <h1>{title}</h1>
       <h4>{Author}</h4>
-      <p>{props.job}</p>
-      <p>{props.title}</p>
-      <p>₹{props.number}</p>
     </article>
   );
 };
