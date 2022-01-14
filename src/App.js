@@ -13,7 +13,7 @@
 // function coverPage() {
 //   return (
 //     <section>
-//       <h1>Hey </h1>
+//       <h1>Hey how ffg</h1>
 //       <bookImage />
 //       <h1>ThankYou</h1>
 //     </section>
