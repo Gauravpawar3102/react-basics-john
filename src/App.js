@@ -4,7 +4,7 @@
 //     <section>
 //       <img
 //         src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
-//         alt="img"
+//         alt="image"
 //       />
 //     </section>
 //   );
